@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background:linear-gradient(50deg, #d4fc79, #96e6a1) ;
+}
+#boxPresentation{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;     
+    justify-content: center; 
+    gap: 8px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(218, 90, 40);
+}
+img[alt="iconName"] {
+    border: 2px solid #12ee19;
+    background-color: #12ee19;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  #phrase{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(41, 185, 101);
+  }

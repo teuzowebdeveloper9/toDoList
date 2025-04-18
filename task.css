@@ -41,6 +41,7 @@ img[alt="iconName"] {
     align-items: center;     
     justify-content: center; 
     gap: 7px;
+    margin-bottom: 20px;
   }
   #sayTask{
     border: 1px, solid, rgb(31, 95, 31);
@@ -66,4 +67,34 @@ img[alt="iconName"] {
     font-size: large;
     color: aliceblue;
     font-weight: bold;        
+  }
+  main{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    margin: auto auto;
+    border: 1px, solid, rgb(8, 133, 74) ;
+    padding-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 70px;
+    width: 60%;
+    background-color: azure;
+    -moz-box-shadow: 9px 10px 16px 6px rgba(6,184,53,1);
+   box-shadow: 9px 10px 16px 6px rgba(6,184,53,1);
+  }
+  #icon-item{
+    flex: 10%;
+    border: 1px,solid,rgb(148, 219, 34);
+  }
+  #name-item{
+    flex: 75%;
+    border: 1px,solid,rgb(148, 219, 34);
+   
+  }
+  #botao-item{
+    flex: 15%;
+    border: 1px,solid,rgb(148, 219, 34);
+   
   }

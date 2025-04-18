@@ -74,9 +74,8 @@ img[alt="iconName"] {
     gap: 16px;
     width: 90%;
     margin: 40px auto;
-    border: 1px solid rgb(148, 219, 34);
     padding: 20px;
-    background-color: aliceblue;
+   
   }
   
   #itens {
@@ -90,6 +89,8 @@ img[alt="iconName"] {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    margin-bottom: 3px;
   }
   
   #icon-item {
@@ -101,10 +102,19 @@ img[alt="iconName"] {
     flex: 75%;
     border: 1px solid rgb(148, 219, 34);
     padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   #botao-item {
     flex: 15%;
-    border: 1px solid rgb(148, 219, 34);
     text-align: center;
+    
+  }
+  #delete{
+    background-color: #12ee19;
+    height: 70px;
+  }
+  #delete:hover{
+  background-color: rgb(230, 15, 15); 
   }

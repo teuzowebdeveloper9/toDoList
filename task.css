@@ -1,120 +1,113 @@
-*{
-    box-sizing: border-box;
-
-
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background:linear-gradient(50deg, #d4fc79, #96e6a1) ;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(50deg, #d4fc79, #96e6a1);
 }
-#boxPresentation{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;     
-    justify-content: center; 
-    gap: 8px;
-    
+.boxPresentation {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;     
+  justify-content: center; 
+  gap: 8px;
 }
-
-h1{
-    text-align: center;
-    font-size: 3rem;
-    color: rgb(218, 90, 40);
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(218, 90, 40);
 }
 img[alt="iconName"] {
-    border: 2px solid #12ee19;
-    background-color: #12ee19;
-    padding: 8px;
-    border-radius: 6px;
-  }
-  #phrase{
-    text-align: center;
-    font-size: 12px;
-    color: rgb(41, 185, 101);
-    font-weight: bold; 
-  }
-  #writing{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;     
-    justify-content: center; 
-    gap: 7px;
-    margin-bottom: 20px;
-  }
-  #sayTask{
-    border: 1px, solid, rgb(31, 95, 31);
-    height: 70px;
-    border-radius: 15px;
-    background: #12ee19;
-    color: aliceblue;
-    font-family: "Poppins", sans-serif;
-    font-size: large;
-  }
-  #sayTask::placeholder{
-    color: aliceblue;
-    font-family: "Poppins", sans-serif;
-    font-size: large;
-    font-weight: bold;        
-  }
-  #send{
-    border: 1px, solid, rgb(31, 95, 31);
-    height: 70px;
-    border-radius: 10px;
-    background: #12ee19;
-    font-family: "Poppins", sans-serif;
-    font-size: large;
-    color: aliceblue;
-    font-weight: bold;        
-  }
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    width: 90%;
-    margin: 40px auto;
-    padding: 20px;
-   
-  }
-  
-  #itens {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto 12px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    background-color: aliceblue;
-    margin-bottom: 3px;
-  }
-  
-  #icon-item {
-    flex: 10%;
-    text-align: center;
-  }
-  
-  #name-item {
-    flex: 75%;
-    border: 1px solid rgb(148, 219, 34);
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  #botao-item {
-    flex: 15%;
-    text-align: center;
-    
-  }
-  #delete{
-    background-color: #12ee19;
-    height: 70px;
-  }
-  #delete:hover{
+  border: 2px solid #12ee19;
+  background-color: #12ee19;
+  padding: 8px;
+  border-radius: 6px;
+}
+.phrase {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(41, 185, 101);
+  font-weight: bold; 
+}
+.writing {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;     
+  justify-content: center; 
+  gap: 7px;
+  margin-bottom: 20px;
+}
+.sayTask {
+  border: 1px solid rgb(31, 95, 31);
+  height: 70px;
+  border-radius: 15px;
+  background: #12ee19;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+.sayTask::placeholder {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  font-weight: bold;        
+}
+.send {
+  border: 1px solid rgb(31, 95, 31);
+  height: 70px;
+  border-radius: 10px;
+  background: #12ee19;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  color: aliceblue;
+  font-weight: bold;        
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+}
+.itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 12px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
+  margin-bottom: 3px;
+}
+.itens.clicado {
+  background: #6bbd77;
+}
+.icon-item {
+  flex: 10%;
+  text-align: center;
+}
+.name-item {
+  flex: 75%;
+  border: 1px solid rgb(148, 219, 34);
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.botao-item {
+  flex: 15%;
+  text-align: center;
+}
+.delete {
+  background-color: #12ee19;
+  height: 70px;
+}
+.delete:hover {
   background-color: rgb(230, 15, 15); 
-  }
+}

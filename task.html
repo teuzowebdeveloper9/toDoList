@@ -7,37 +7,46 @@
     <link rel="stylesheet" href="task.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_circle" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header id="boxPresentation">
+   <header class="boxPresentation">
     <h1>to-do-list</h1> 
     <img src="images/check.png" alt="iconName">
    </header>
    <div>
-    <p id="phrase">why procrastination is not an option</p>
+    <p class="phrase">why procrastination is not an option</p>
    </div>
-   <div id="writing">
-    <input id="sayTask" type="text" placeholder="say your task">
-    <button id="send" class="add" onclick="Teste()"> add task</button>
+   <div class="writing">
+    <input class="sayTask" type="text" placeholder="say your task">
+    <button class="send add" onclick="Teste()"> add task</button>
    </div>
-    <main id="toDoList">
-        <div id="itens">
-            <div id="icon-item">
+    <main class="toDoList">
+        <div class="itens">
+            <div class="icon-item">
               <img src="images/radio_button_unchecked_24dp_FFFF55_FILL0_wght400_GRAD0_opsz24.png" alt="noCheck">
             </div>
-            <div id="name-item">
+            <div class="name-item">
               <p>testando isso</p>
             </div>
-            <div id="botao-item">
-              <button  class="delete" id="delete">  <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/filled-trash.png" alt="filled-trash"/> delete </button>
+            <div class="botao-item">
+              <button class="delete">  <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/filled-trash.png" alt="filled-trash"/> delete </button>
             </div>
-          </div>          
+          </div>      
+          
+          <div class="itens clicado">
+            <div class="icon-item">
+              <img src="images/check_circle_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png" alt="Check">
+            </div>
+            <div class="name-item">
+              <p>testando isso</p>
+            </div>
+            <div class="botao-item">
+              <button class="delete">  <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/filled-trash.png" alt="filled-trash"/> delete </button>
+            </div>
+          </div>      
     </main>
-
-    
     <script src="task.js"></script>
 </body>
 </html>

@@ -52,7 +52,7 @@ Feel free to **modify, improve, or use this project however you like**! You're m
 
 This project is still under development and will receive improvements over time. I'm learning, making mistakes, and getting better — and that’s the goal! 🚀
 
-![hworang](![hworang ](https://media.tenor.com/Uu_7q-zvnxQAAAAM/hwoarang-tekken.gif))
+![hworang](https://media.tenor.com/Uu_7q-zvnxQAAAAM/hwoarang-tekken.gif)
 
 ---
 

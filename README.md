@@ -42,6 +42,12 @@ Unfortunately, many people overlook it — but it’s incredibly important and p
 
 ---
 
+## 🌐 Live Demo
+
+If you want to see the site in action, check it out here: [ToDo List Live Demo](https://to-do-list-deployed.vercel.app/)
+
+---
+
 ## 🤝 Contributing
 
 Feel free to **modify, improve, or use this project however you like**! You're more than welcome to play around with it. 😄

@@ -87,7 +87,11 @@ main {
   margin-bottom: 3px;
 }
 .itens.clicado {
-  background: #6bbd77;
+  background: #3f974c;
+}
+.itens.clicado .name-item {
+  text-decoration: line-through;
+  color: gray;
 }
 .icon-item {
   flex: 10%;

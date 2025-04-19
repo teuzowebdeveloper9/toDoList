@@ -20,6 +20,10 @@ function addTask(){
             </div>
           </div>      `;
           main.innerHTML += newItem;
+          // Limpa o campo de input após adicionar a tarefa
+            
+            task = input.value = "";
+            task.focus();
     }
 
 }

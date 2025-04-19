@@ -11,11 +11,11 @@ function addTask(){
     let task = input.value
   
     if((task !== "") && (task !== null) && (task !== undefined)){
-        let newItem = ` <div id="${counter}" class="itens">
-            <div class="icon-item">
+        let newItem = ` <div onclick="toMark(${counter})"  id="${counter}" class="itens">
+            <div onclick="toMark(${counter})" class="icon-item">
               <img src="images/radio_button_unchecked_24dp_FFFF55_FILL0_wght400_GRAD0_opsz24.png" alt="noCheck">
             </div>
-            <div class="name-item">
+            <div onclick="toMark(${counter})" class="name-item">
               ${task}
             </div>
             <div class="botao-item">
@@ -42,4 +42,21 @@ input.addEventListener("keydown", function(event) {
 function cancel(position){
     let task = document.getElementById(position);
     task.remove();
+}
+
+function toMark(position) {
+    let item = document.getElementById(position);
+    let state = item.classList.contains("clicado"); 
+    let icon = item.querySelector(".icon-item img");
+
+
+    if (state) {
+        
+        item.classList.remove("clicado");
+        icon.src = "images/radio_button_unchecked_24dp_FFFF55_FILL0_wght400_GRAD0_opsz24.png";
+    } else {
+       
+        item.classList.add("clicado");
+        icon.src = "images/check_circle_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png"
+    }
 }

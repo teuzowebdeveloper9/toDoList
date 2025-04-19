@@ -87,7 +87,7 @@ main {
   margin-bottom: 3px;
 }
 .itens.clicado {
-  background: #3f974c;
+  background: #6a18d6;
 }
 .itens.clicado .name-item {
   text-decoration: line-through;
